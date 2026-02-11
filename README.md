@@ -1,7 +1,9 @@
 # Breast Cancer Wisconsin ML Analysis
 
-[![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/downloads/)
-[![scikit-learn](https://img.shields.io/badge/scikit--learn-1.0+-orange.svg)](https://scikit-learn.org/)
+[![Python](https://img.shields.io/badge/Python-3.13-blue.svg)](https://www.python.org/downloads/)
+[![scikit-learn](https://img.shields.io/badge/scikit--learn-1.8.0-orange.svg)](https://scikit-learn.org/)
+[![NumPy](https://img.shields.io/badge/NumPy-2.4.2-blue.svg)](https://numpy.org/)
+[![Pandas](https://img.shields.io/badge/Pandas-3.0.0-blue.svg)](https://pandas.pydata.org/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
 A machine learning project that classifies breast cancer diagnoses (malignant vs benign) using the Wisconsin Breast Cancer Diagnostic dataset. Built as part of the Udacity AI Programming with Python Nanodegree.
@@ -80,8 +82,18 @@ The dataset includes 10 base measurements (mean, standard error, and "worst" val
 ## 🚀 Getting Started
 
 ### Prerequisites
-- Python 3.8 or higher
+- Python 3.13
 - pip package manager
+
+### Key Dependencies
+- **numpy==2.4.2** - Numerical computing
+- **pandas==3.0.0** - Data manipulation and analysis
+- **scikit-learn==1.8.0** - Machine learning algorithms
+- **matplotlib==3.10.8** - Data visualization
+- **seaborn==0.13.2** - Statistical data visualization
+- **jupyter==** (via ipykernel==7.2.0) - Interactive notebook environment
+
+See `requirements.txt` for complete list of dependencies.
 
 ### Installation
 
